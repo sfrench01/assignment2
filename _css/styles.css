@@ -42,12 +42,7 @@ a:active { color:#fff09e; }  /* selected link */
 .zester {
   color: #E3EEEA;
 }
-article {
-  width: 40%;
-  height: 50%;
-  float: left;
-  padding: 1em;
-} 
+
 
 * {
   box-sizing: border-box;
