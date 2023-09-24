@@ -28,6 +28,10 @@ a:active { color:#81B1A1; }  /* selected link */
 	font-family: "Lucida Console", "Courier New", monospace;
 }
 
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -72,6 +76,16 @@ footer {
 main {
     background-color: white;
 }
+
+section {
+  width: 40%;
+  height: 100%;
+  float: left;
+  background-color: #4E7F6F;
+  padding: .5em;
+}
+
+
 /* main {
   width: 80%;
   height: 24em;
@@ -87,13 +101,7 @@ main {
     margin-right: auto;
     background-color: whitesmoke;
   }
-section {
-  width: 80%;
-  height: 100%;
-  float: left;
-  background-color: whitesmoke;
-  padding: .5em;
-}
+
 
 
  */
