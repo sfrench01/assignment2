@@ -18,7 +18,12 @@ a:hover { color:darkseagreen; } /* mouse over link */
 a:active { color:#81B1A1; }  /* selected link */
 
 
-/* background-color: whitesmoke; */
+#id1 {
+	font-weight: bold;
+	font-size: x-small;
+	line-height: 150%;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 
 * {
