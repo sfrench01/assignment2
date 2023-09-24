@@ -21,7 +21,12 @@ a:active { color:#81B1A1; }  /* selected link */
 .p1 {
 	font-family: "Courier New", "Lucida Console", monospace;
 }
-
+.p2 {
+	font-family: monospace, "Courier New", "Lucida Console";
+}
+.p3 {
+	font-family: "Lucida Console", "Courier New", monospace;
+}
 
 * {
   box-sizing: border-box;
