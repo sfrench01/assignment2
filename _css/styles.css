@@ -13,7 +13,7 @@
 } */
 
 a:link { color:#4E7F6F; } /* unvisited link */
-a:visited { color:seagreen; } /* visited link */
+a:visited { color:rgb(38, 78, 56); } /* visited link */
 a:hover { color:darkseagreen; } /* mouse over link */
 a:active { color:#81B1A1; }  /* selected link */
 
