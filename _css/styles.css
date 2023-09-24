@@ -15,7 +15,7 @@
 a:link { color:#4E7F6F; } /* unvisited link */
 a:visited { color:#81B1A1; } /* visited link */
 a:hover { color:darkseagreen; } /* mouse over link */
-a:active { color:lightseagreen; }  /* selected link */
+a:active { color:seagreen; }  /* selected link */
 
 
 /* background-color: whitesmoke; */
