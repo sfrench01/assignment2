@@ -27,9 +27,14 @@ a:active { color:#fff09e; }  /* selected link */
 	font-family: "Lucida Console", "Courier New", monospace;
 }
 
+form {
+  width: 65%;
+}
+
 .candyUs {
-  width: 60%;
-  
+  padding: 65%;
+  border-width: 65%;
+  margin: auto;
 }
 
 .accent {
