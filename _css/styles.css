@@ -28,8 +28,18 @@ a:active { color:#fff09e; }  /* selected link */
 }
 
 form {
-  width: 65%;
+  margin: auto;
 }
+
+fieldset {
+  max-width: 45%;
+}
+
+table {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
 
 .candyUs {
   padding: 65%;
