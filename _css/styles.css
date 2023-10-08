@@ -29,22 +29,58 @@ a:active { color:#fff09e; }  /* selected link */
 
 form {
   margin: auto;
+  display: grid;
+  text-align: center;
 }
 
-fieldset {
+/* fieldset {
   max-width: 45%;
-}
+} */
 
-table {
+
+/* <style>
+  table, th, td {
+    border: 1px;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+</style> */
+
+
+/* table, th, td {
   font-family: "Lucida Console", "Courier New", monospace;
+  
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+  
+
+
+  /* th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  } */
+
+
+  body {
+    display:table-cell;
+    vertical-align:middle;
 }
-
-
 
 .candyUs {
-  padding: 65%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
   border-width: 65%;
-  margin: auto;
+  display: grid;
+  
 }
 
 .accent {
