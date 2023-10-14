@@ -1,76 +1,52 @@
 
 
-
-
-/* h1, h2, h3 {
-	color: darkolivegreen;
-
+a:link {
+  color: #f2fffa;
 }
 
-.special {
-	color: midnightblue;
+/* unvisited link */
+a:visited {
+  color: #50ffbc;
+}
 
-} */
+/* visited link */
+a:hover {
+  color: #ffb2a8;
+}
 
-a:link { color:#f2fffa; } /* unvisited link */
-a:visited { color:#50ffbc; } /* visited link */
-a:hover { color:#ffb2a8; } /* mouse over link */
-a:active { color:#fff09e; }  /* selected link */
+/* mouse over link */
+a:active {
+  color: #fff09e;
+}
+
+/* selected link */
 
 .p1 {
-	font-family: "Courier New", "Lucida Console", monospace;
-}
-.p2 {
-	font-family: monospace, "Courier New", "Lucida Console";
-}
-.p3 {
-	font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier New", "Lucida Console", monospace;
 }
 
-form {
-  margin: auto;
+.p2 {
+  font-family: monospace, "Courier New", "Lucida Console";
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+fieldset {
+  margin: 2vh;
   display: grid;
   text-align: center;
+  float: center;
+  box-sizing: content-box;
 }
 
-/* fieldset {
-  max-width: 45%;
-} */
 
-
-/* <style>
-  table, th, td {
-    border: 1px;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 40px;
-  }
-</style> */
-
-
-/* table, th, td {
-  font-family: "Lucida Console", "Courier New", monospace;
-  
-    /* border: 1px solid black;
-    border-collapse: collapse; */
-  
-
-
-  /* th, td {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 40px;
-  } */
-
-
-  body {
-    display:table-cell;
-    vertical-align:middle;
+body {
+  display: table-cell;
+  vertical-align: middle;
+  float: center;
+  width: 100%;
 }
 
 .candyUs {
@@ -78,9 +54,10 @@ form {
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 40px;
-  border-width: 65%;
+  border-width: 100%;
   display: grid;
-  
+
+
 }
 
 .accent {
@@ -91,17 +68,20 @@ form {
 
   background-color: #30547E;
 }
+
 .starfile {
   padding: 2em;
 }
+
 .zester {
   color: #E3EEEA;
 }
 
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
+
 header {
   width: 100%;
   height: 10%;
@@ -109,6 +89,7 @@ header {
   padding: 1em;
   background: #23483C no-repeat 80% 10px;
 }
+
 nav {
   width: 100%;
   height: 2.5em;
@@ -116,16 +97,18 @@ nav {
   background-color: #23483C;
   color: #E3EEEA;
 }
+
 a {
   color: #E3EEEA;
 }
 
-article {
-  width: 40%;
-  height: 50%;
+.artsy {
+  width: 100%;
+  margin: 2vh;
   float: left;
   padding: 1em;
-} 
+}
+
 footer {
   width: 100%;
   height: 100%;

@@ -1,0 +1,22 @@
+
+
+.fuge {
+    float: left;
+    width: 35vw;
+    margin: 2vh;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-color: blanchedalmond;
+    border-style: dotted;
+    
+}
+
+
+
+.fage {
+    float: right;
+    width: 35vw;
+    margin: 2vh;
+    box-sizing: border-box;
+}
+
