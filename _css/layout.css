@@ -2,7 +2,9 @@
 
 .face {
     position: absolute;
-    right: 15vw;
+    float: right;
+    right: 1vw;
+    top: 1vw;
 }
 
 
@@ -15,7 +17,7 @@
     
     border-color: rgb(41, 68, 40);
     border-style: dotted;
-    
+    padding-right: 5em;
 }
 
 

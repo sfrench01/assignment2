@@ -86,6 +86,15 @@ form {
   box-sizing: border-box;
 }
 
+p {
+  padding-left: 6em;
+  padding-right: 16em;
+  
+}
+
+.extrap {
+  padding-left: 4em;
+}
 
 body {
   vertical-align: middle;
@@ -120,9 +129,9 @@ body {
 }
 
 
-/* * {
+ * {
   box-sizing: border-box;
-} */
+} 
 
 header {
   
@@ -145,10 +154,8 @@ a {
 }
 
 .artsy {
-  
-  margin: 2vh;
   float: left;
-  padding: 1em;
+  padding-left: 1em;
 }
 
 footer {
