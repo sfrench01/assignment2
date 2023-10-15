@@ -1,5 +1,45 @@
 
 
+
+
+
+/* Set nav to sticky or fixed */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+
+
+
+
+
+
+
 a:link {
   color: #f2fffa;
 }
@@ -37,8 +77,12 @@ form {
   margin: auto;
   display: grid;
   text-align: center;
-  padding: auto;
+
   box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -46,7 +90,7 @@ body {
   
   vertical-align: middle;
   
-  width: 100%;
+  
 }
 
 .candyUs {
@@ -83,7 +127,7 @@ body {
 } */
 
 header {
-  width: 100%;
+  
   height: 10%;
   color: #E3EEEA;
   padding: 1em;
@@ -91,7 +135,7 @@ header {
 }
 
 nav {
-  width: 100%;
+  
   height: 2.5em;
   /* padding-left: 1em; */
   background-color: #23483C;

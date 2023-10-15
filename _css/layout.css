@@ -2,11 +2,11 @@
 
 .fuge {
     float: left;
-    width: 35vw;
-    margin: 2vh;
+    width: 30vw;
+    margin: 1vh;
     box-sizing: border-box;
-    border-radius: 50%;
-    border-color: blanchedalmond;
+    
+    border-color: rgb(41, 68, 40);
     border-style: dotted;
     
 }
@@ -18,5 +18,7 @@
     width: 35vw;
     margin: 2vh;
     box-sizing: border-box;
+    border-color: rgb(41, 68, 40);
+    border-style: dotted;
 }
 
