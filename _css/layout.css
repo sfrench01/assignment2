@@ -1,8 +1,15 @@
 
 
+.face {
+    position: absolute;
+    right: 15vw;
+}
+
+
 .fuge {
     float: left;
-    width: 30vw;
+    width: 33vw;
+    height: 41vw;
     margin: 1vh;
     box-sizing: border-box;
     
@@ -14,8 +21,8 @@
 
 
 .fage {
-    float: right;
-    width: 35vw;
+    float: left;
+    width: 31vw;
     margin: 2vh;
     box-sizing: border-box;
     border-color: rgb(41, 68, 40);
