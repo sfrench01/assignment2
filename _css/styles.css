@@ -43,7 +43,7 @@ form {
 
 
 body {
-  display: table-cell;
+  
   vertical-align: middle;
   
   width: 100%;
@@ -103,14 +103,14 @@ a {
 }
 
 .artsy {
-  width: 100%;
+  
   margin: 2vh;
   float: left;
   padding: 1em;
 }
 
 footer {
-  width: 100%;
+  
   height: 100%;
   clear: both;
   color: #E3EEEA;
