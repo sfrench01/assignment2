@@ -81,7 +81,7 @@ fieldset {
 }
 
 form {
-  display: grid;
+  display: block;
   text-align: center;
   box-sizing: border-box;
 }
@@ -106,7 +106,7 @@ body {
   padding-left: 30px;
   padding-right: 40px;
 
-  display: grid;
+  display: block;
 
 
 }

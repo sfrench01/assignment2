@@ -9,85 +9,91 @@
     <link rel="stylesheet" href="_css/styles.css">
     <link rel="stylesheet" href="_css/layout.css" />
 
+    <style style="text-align:center">
+        table,
+        th,
+        td,
+        tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-bottom: 2%;
 
+        }
+        th,
+        td,
+        tr {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+    </style>
 </head>
-<style style="text-align:center">
-    table,
-    th,
-    td,
-    tr {
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: 35%;
-        margin-right: 35%;
-        margin-bottom: 2%;
 
-    }
-
-    th,
-    td,
-    tr {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }
-</style>
 
 <body>
 
     <header>
         <h1 class="p2">Contact</h1>
+        <img src="_images/logo2.png" alt="Microphone Logo" class="face">
     </header>
     <nav class="topnav">
         <a class="active p3" href="index.html">Home</a>
         <a href="gallery.html" class="p3">Gallery</a>
         <a href="contact-us.html" class="p3">Contact</a>
         <a href="faq.html" class="p3">FAQ</a>
-     </nav>
+    </nav>
     <main>
-        <figure class="face">
-            <img src="_images/logo2.png">
-        </figure>
+
     </main>
-    <fieldset >
-        <form class="p1"  id="myMailerForm" action="mailto:french.a.s32@gmail.com"
-            method="post">
-            <legend>Contact Us:</legend>
-            <br>
-            <label for="firstname"> First Name </label> <input type="text" name="firstname" id="firstname"><br>
-            <label for="lastname"> Last Name </label> <input type="text" name="lastname" id="lastname"><br>
-            <br>
-            <select name="xxxx" size="1">
-                <option> Student </option>
-                <option> Teacher </option>
-                <option> Parent </option>
-            </select><br><br>
-            Describe the issue here:<br>
-            <br>
-            <textarea></textarea><br>
-            <br>
-            <input type="reset" value="Erase Me"><br>
-            <br>
-            My review for this website:<br>
-            <br>
-            <input type="radio" name="xxxx" value="yyyy">3 Stars <br>
-            <input type="radio" name="xxxx" value="yyyy">2 Stars <br>
-            <input type="radio" name="xxxx" value="yyyy">1 Stars <br>
-            <br>
-            <input type="checkbox" name="xxxx" value="yyyy">I am not a Robot<br>
-            <br>
-            <input type="submit" value="Confirm">
+    <fieldset>
+        <legend>Contact Us:</legend>
+        <form class="p1" id="myMailerForm" action="mailto:french.a.s32@gmail.com" method="post">
+            <p>
+                <label for="firstname"> First Name </label> <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname"> Last Name </label> <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <select name="title" size="1">
+                    <option> Student </option>
+                    <option> Teacher </option>
+                    <option> Parent </option>
+                </select>
+            </p>
+
+            <p>
+                Describe the issue here:
+                <textarea></textarea>
+            </p>
+            <p>
+                <input type="radio" name="stars" value="3">3 Stars
+                <input type="radio" name="stars" value="2">2 Stars
+                <input type="radio" name="stars" value="1">1 Stars
+            </p>
+            <p>
+                My review for this website:<br>
+                <input type="checkbox" name="authentication" value="not">I am not a Robot
+                <input type="submit" value="Confirm">
+                <input type="reset" value="Reset">
+            </p>
         </form>
     </fieldset>
     <h2 class="p3" style="text-align:center">Past Tours</h2>
     <table class="p2" style="text-align:center">
-        <tr>
-            <th>Venue</th>
-            <th>Date</th>
-            <th>Time</th>
-        </tr>
+        <caption>Past Tours</caption>
+        <thread>
+            <tr>
+                <th>Venue</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+        </thread>
+
         <tr>
             <td>Honda Center, Anaheim, CA, USA</td>
             <td>Sept 9th</td>
