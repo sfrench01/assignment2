@@ -7,11 +7,19 @@
     top: 1vw;
 }
 
+.picalign {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.figalign {
+    margin-left: 6%;
+}
 
 .fuge {
     float: left;
-    width: 33vw;
-    height: 41vw;
+    width: 18vw;
+    height: 24vw;
     margin: 1vh;
     box-sizing: border-box;
     
@@ -21,11 +29,11 @@
 }
 
 
-
 .fage {
     float: left;
     width: 31vw;
-    margin: 2vh;
+    margin-top: 2%;
+    margin-left: 3%;
     box-sizing: border-box;
     border-color: rgb(41, 68, 40);
     border-style: dotted;

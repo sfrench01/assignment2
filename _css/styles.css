@@ -83,7 +83,7 @@ form {
 
 p {
   padding-left: 6em;
-  padding-right: 16em;
+  padding-right: 6em;
 
 }
 
@@ -150,7 +150,8 @@ a {
 
 .artsy {
   float: left;
-  padding-left: 1em;
+  margin-top: 2%;
+  margin-left: 3%;
 }
 
 footer {
@@ -163,10 +164,22 @@ footer {
   background: #102C23 no-repeat left bottom;
 }
 
+.indexcard {
+  float: left;
+  margin-left: 2%;
+  max-width: 77%;
+}
+
+.section2card {
+  float: left;
+  max-width: 60%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 
 .aislecard {
-  max-width: 24%;
-  
+  max-width: 26%;
   float: left;
 }
 
