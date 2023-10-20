@@ -1,8 +1,4 @@
 
-
-
-
-
 /* Set nav to sticky or fixed */
 
 /* Add a black background color to the top navigation */
@@ -32,11 +28,6 @@
   background-color: #3f5a3b;
   color: white;
 }
-
-
-
-
-
 
 
 
@@ -170,6 +161,13 @@ footer {
   text-align: center;
   padding-top: .5em;
   background: #102C23 no-repeat left bottom;
+}
+
+
+.aislecard {
+  max-width: 24%;
+  
+  float: left;
 }
 
 
