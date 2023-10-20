@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="_css/styles.css">
-    <link rel="stylesheet" href="_css/layout.css" />
+    <link rel="stylesheet" href="_css/layout.css">
 
     <style style="text-align:center">
         table,
@@ -58,26 +58,50 @@
             <p>
                 <label for="lastname"> Last Name </label> <input type="text" name="lastname" id="lastname">
             </p>
-            <p>
-                <select name="title" size="1">
+            <!-- <p>
+                <label title="Select your status.">Occupation</label>
+                <select name="statusID">
                     <option> Student </option>
                     <option> Teacher </option>
                     <option> Parent </option>
                 </select>
+             title="Select your role."
+            </p> -->
+
+            <p>
+                <label for="roleID">Select Role</label>
+                <select id="roleID">
+                  <option value="">Select Role</option>
+                  <option value="1">Student</option>
+                  <option value="2">Teacher</option>
+                  <option value="3">Parent</option>
+                </select>
             </p>
 
             <p>
-                Describe the issue here:
-                <textarea></textarea>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message"></textarea>
             </p>
-            <p>
+            
+            <p> Website Ratings: <br>
+                <label title="Select for ratings.">3 Stars <input type="radio" name="stars"></label>
+                <br>
+                <label title="Select for ratings.">2 Stars <input type="radio" name="stars"></label>
+                <br>
+                <label title="Select for ratings.">1 Stars <input type="radio" name="stars"></label>
+            </p>
+            
+            <!-- <p>
                 <input type="radio" name="stars" value="3">3 Stars
                 <input type="radio" name="stars" value="2">2 Stars
                 <input type="radio" name="stars" value="1">1 Stars
+            </p> -->
+            <p>
+                <label title="Select if not a Robot"><input type="checkbox" name="not"> I am not a Robot</label>
             </p>
             <p>
-                My review for this website:<br>
-                <input type="checkbox" name="authentication" value="not">I am not a Robot
+
+                <!-- <input type="checkbox" name="authentication" value="not"> -->
                 <input type="submit" value="Confirm">
                 <input type="reset" value="Reset">
             </p>
@@ -86,34 +110,37 @@
     <h2 class="p3" style="text-align:center">Past Tours</h2>
     <table class="p2" style="text-align:center">
         <caption>Past Tours</caption>
-        <thread>
+        
             <tr>
                 <th>Venue</th>
                 <th>Date</th>
                 <th>Time</th>
             </tr>
-        </thread>
+        
 
-        <tr>
-            <td>Honda Center, Anaheim, CA, USA</td>
-            <td>Sept 9th</td>
-            <td>8:35 pm – 10:20 pm</td>
-        </tr>
-        <tr>
-            <td>Hyde Park, London, England</td>
-            <td>June 25th</td>
-            <td>6:10 pm – 7:15 pm</td>
-        </tr>
-        <tr>
-            <td>Hyde Park, London, England</td>
-            <td>June 24th</td>
-            <td>6:10 pm – 7:15 pm</td>
-        </tr>
-        <tr>
-            <td>Warwick Castle, Warwick, England</td>
-            <td>June 23rd</td>
-            <td>8:50 pm – 10:20 pm</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Honda Center, Anaheim, CA, USA</td>
+                <td>Sept 9th</td>
+                <td>8:35 pm – 10:20 pm</td>
+            </tr>
+            <tr>
+                <td>Hyde Park, London, England</td>
+                <td>June 25th</td>
+                <td>6:10 pm – 7:15 pm</td>
+            </tr>
+            <tr>
+                <td>Hyde Park, London, England</td>
+                <td>June 24th</td>
+                <td>6:10 pm – 7:15 pm</td>
+            </tr>
+            <tr>
+                <td>Warwick Castle, Warwick, England</td>
+                <td>June 23rd</td>
+                <td>8:50 pm – 10:20 pm</td>
+            </tr>            
+        </tbody>
+
     </table>
 
     <footer>

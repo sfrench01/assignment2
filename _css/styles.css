@@ -29,7 +29,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04aa6d;
+  background-color: #3f5a3b;
   color: white;
 }
 
@@ -60,6 +60,10 @@ a:active {
 }
 
 /* selected link */
+
+.type4 {
+  text-align: center;
+}
 
 .p1 {
   font-family: "Courier New", "Lucida Console", monospace;
