@@ -21,6 +21,7 @@
             margin-bottom: 2%;
 
         }
+
         th,
         td,
         tr {
@@ -46,77 +47,61 @@
         <a href="contact-us.html" class="p3">Contact</a>
         <a href="faq.html" class="p3">FAQ</a>
     </nav>
-    <main>
+    <main class="p2 mainform w3-card">
+        <section >
+            <fieldset >
+                <legend class="w3-container w3-teal "><strong>Contact Us:</strong></legend>
+                <form  id="myMailerForm" action="mailto:french.a.s32@gmail.com" method="post">
+                    <p>
+                        <label for="firstname"><strong>First Name</strong>  </label> <input type="text" name="firstname" id="firstname">
+                    </p>
+                    <p>
+                        <label for="lastname"><strong>Last Name</strong>  </label> <input type="text" name="lastname" id="lastname">
+                    </p>
+                    <p>
+                        <label for="roleID"><strong>Select Role</strong></label>
+                        <select id="roleID">
+                            <option value="">Select Role</option>
+                            <option value="1">Student</option>
+                            <option value="2">Teacher</option>
+                            <option value="3">Parent</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message"><strong>Comment</strong></label><br>
+                        <textarea id="message" name="message"></textarea>
+                    </p>
+
+                    <p><strong>Website Ratings:</strong> <br>
+                        <label title="Select for ratings.">3 Stars <input type="radio" name="stars"></label>
+                        <br>
+                        <label title="Select for ratings.">2 Stars <input type="radio" name="stars"></label>
+                        <br>
+                        <label title="Select for ratings.">1 Stars <input type="radio" name="stars"></label>
+                    </p>
+                    <p>
+                        <label title="Select if not a Robot"><input type="checkbox" name="not"> I am not a Robot</label>
+                    </p>
+                    <p>
+                        <input type="submit" class="w3-btn w3-round-xxlarge w3-teal" value="Confirm">
+                        <input type="reset" class="w3-btn w3-round-xxlarge w3-teal" value="Reset">
+                    </p>
+                </form>
+            </fieldset>            
+        </section>
 
     </main>
-    <fieldset>
-        <legend>Contact Us:</legend>
-        <form class="p1" id="myMailerForm" action="mailto:french.a.s32@gmail.com" method="post">
-            <p>
-                <label for="firstname"> First Name </label> <input type="text" name="firstname" id="firstname">
-            </p>
-            <p>
-                <label for="lastname"> Last Name </label> <input type="text" name="lastname" id="lastname">
-            </p>
-            <!-- <p>
-                <label title="Select your status.">Occupation</label>
-                <select name="statusID">
-                    <option> Student </option>
-                    <option> Teacher </option>
-                    <option> Parent </option>
-                </select>
-             title="Select your role."
-            </p> -->
-
-            <p>
-                <label for="roleID">Select Role</label>
-                <select id="roleID">
-                  <option value="">Select Role</option>
-                  <option value="1">Student</option>
-                  <option value="2">Teacher</option>
-                  <option value="3">Parent</option>
-                </select>
-            </p>
-
-            <p>
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message"></textarea>
-            </p>
-            
-            <p> Website Ratings: <br>
-                <label title="Select for ratings.">3 Stars <input type="radio" name="stars"></label>
-                <br>
-                <label title="Select for ratings.">2 Stars <input type="radio" name="stars"></label>
-                <br>
-                <label title="Select for ratings.">1 Stars <input type="radio" name="stars"></label>
-            </p>
-            
-            <!-- <p>
-                <input type="radio" name="stars" value="3">3 Stars
-                <input type="radio" name="stars" value="2">2 Stars
-                <input type="radio" name="stars" value="1">1 Stars
-            </p> -->
-            <p>
-                <label title="Select if not a Robot"><input type="checkbox" name="not"> I am not a Robot</label>
-            </p>
-            <p>
-
-                <!-- <input type="checkbox" name="authentication" value="not"> -->
-                <input type="submit" value="Confirm">
-                <input type="reset" value="Reset">
-            </p>
-        </form>
-    </fieldset>
     <h2 class="p3" style="text-align:center">Past Tours</h2>
     <table class="p2" style="text-align:center">
         <caption>Past Tours</caption>
-        
-            <tr>
-                <th>Venue</th>
-                <th>Date</th>
-                <th>Time</th>
-            </tr>
-        
+
+        <tr class="w3-teal">
+            <th>Venue</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+
 
         <tbody>
             <tr>
@@ -138,7 +123,7 @@
                 <td>Warwick Castle, Warwick, England</td>
                 <td>June 23rd</td>
                 <td>8:50 pm – 10:20 pm</td>
-            </tr>            
+            </tr>
         </tbody>
 
     </table>

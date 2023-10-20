@@ -68,17 +68,34 @@ a:active {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-fieldset {
-  margin-top: 2%;
+/* fieldset {
+  margin-top: 6%;
   margin-left: 30%;
   margin-right: 30%;
-  background-color: #d6ebd9;
-}
+  
+} */
 
-form {
+fieldset {
   display: block;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 2%;
+
+}
+
+.mainform {
+  
+  max-width: 60%;
+  margin-left: 32%;  
+  margin-right: 32%;
+  margin-top: 4%;
+  background-color: #d6ebd9;
+  border-color: #102C23;
+  border-style: double;
+  /* margin-top: 4%;
+
+  margin-right: 35%; */
+
 }
 
 p {
