@@ -134,6 +134,8 @@ body {
 
 .starfile {
   padding: 2em;
+  float: left;
+  margin-left: 20%; 
 }
 
 .zester {
@@ -195,12 +197,25 @@ footer {
   margin-bottom: 5%;
 }
 
+.section3card {
+  float: left;
+  max-width: 30%;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
 .aislecard {
   max-width: 26%;
   float: left;
 }
 
-
+.aislecard3 {
+  max-width: 46%;
+  float: left;
+  
+}
 /* main {
   width: 80%;
   height: 24em;
